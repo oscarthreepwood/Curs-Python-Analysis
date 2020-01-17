@@ -15,16 +15,4 @@ Es pren com a cas d'ús l'stock de Netflix. Els estudis són amb informació de 
 - models of distribution.mp4: 1r vídeo rellevant del curs (fitxer a part amb subtítols).
 - models of stock return index: 2n vídeo rellevant del curs (fitxer a part amb subtítols).
 
-  .--.            .--.
- ( (`\\."--``--".//`) )
-  '-.   __   __    .-'
-   /   /__\ /__\   \
-  |    \ 0/ \ 0/    |
-  \     `/   \`     /
-   `-.  /-"""-\  .-`
-     /  '.___.'  \
-     \     I     /
-      `;--'`'--;`
-Oscar     '.___.'
-
 ##############
