@@ -1,0 +1,478 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:05.562
+[MUSIC]
+
+2
+00:00:05.562 --> 00:00:06.792
+In this video,
+
+3
+00:00:06.792 --> 00:00:12.980
+we are going to discuss basic
+concepts about population and sample.
+
+4
+00:00:12.980 --> 00:00:17.870
+Population is a group of individuals
+who have something in common.
+
+5
+00:00:17.870 --> 00:00:23.040
+We may be interested in some
+properties about a certain group,
+
+6
+00:00:23.040 --> 00:00:28.998
+which we call target population,
+that cannot be observed completely.
+
+7
+00:00:28.998 --> 00:00:33.665
+For example,
+all registered voters in Thailand, or
+
+8
+00:00:33.665 --> 00:00:39.163
+all Hong Kong citizens who played
+golf at least once past year,
+
+9
+00:00:39.163 --> 00:00:41.980
+or all neurons from your brain.
+
+10
+00:00:43.300 --> 00:00:48.616
+Since we cannot get information for
+every individual of these populations,
+
+11
+00:00:48.616 --> 00:00:52.760
+we have to take sample,
+which is a part of target population.
+
+12
+00:00:54.260 --> 00:00:56.990
+Sample is a small group of population.
+
+13
+00:00:56.990 --> 00:01:03.880
+It is a representative of the population,
+hence, it has to be randomly selected.
+
+14
+00:01:03.880 --> 00:01:06.220
+This process is called random sampling.
+
+15
+00:01:08.400 --> 00:01:13.700
+There are two kinds of sampling,
+called a sampling without replacement, or
+
+16
+00:01:13.700 --> 00:01:19.140
+with replacement, depending on
+whether you put the select individuals
+
+17
+00:01:19.140 --> 00:01:23.780
+back into population before
+you select the next one.
+
+18
+00:01:25.010 --> 00:01:28.320
+In a sampling without replacement,
+
+19
+00:01:28.320 --> 00:01:32.280
+an individual is randomly
+selected from the population.
+
+20
+00:01:32.280 --> 00:01:35.040
+The next individual will be selected
+
+21
+00:01:35.040 --> 00:01:37.520
+without putting the previous
+individual back.
+
+22
+00:01:38.870 --> 00:01:42.550
+Every individual is selected
+from a different pool.
+
+23
+00:01:42.550 --> 00:01:47.620
+If the population size is very large,
+this method is a factor
+
+24
+00:01:47.620 --> 00:01:52.620
+because it can generate a random
+sample with different individuals.
+
+25
+00:01:53.710 --> 00:01:58.310
+There is another kind of sampling method,
+sampling with replacement.
+
+26
+00:01:59.380 --> 00:02:03.020
+A randomly selected
+individual will be put back
+
+27
+00:02:03.020 --> 00:02:06.130
+before the next individual being selected.
+
+28
+00:02:06.130 --> 00:02:11.580
+Hence, it is possible that the same
+individual can be selected more than once.
+
+29
+00:02:13.300 --> 00:02:18.070
+When the population is small,
+this method can make sure that
+
+30
+00:02:18.070 --> 00:02:22.150
+everyone in the population has
+the same chance being selected.
+
+31
+00:02:24.360 --> 00:02:29.660
+In this example,
+we first create a blank DataFrame and
+
+32
+00:02:29.660 --> 00:02:32.670
+we create a new column in this DataFrame.
+
+33
+00:02:33.770 --> 00:02:36.620
+Name the column as Population.
+
+34
+00:02:36.620 --> 00:02:41.900
+Then I run this python code to
+perform sampling from the population
+
+35
+00:02:41.900 --> 00:02:47.160
+by drawing five individuals
+randomly without replacement.
+
+36
+00:02:47.160 --> 00:02:51.624
+And stored them,
+as a_sample_without_replacement.
+
+37
+00:02:51.624 --> 00:02:57.000
+In we can use method
+sample to get samples.
+
+38
+00:02:57.000 --> 00:03:02.370
+Here, the key word replace=False
+
+39
+00:03:02.370 --> 00:03:05.979
+means the sampling is
+a sampling without replacement.
+
+40
+00:03:07.320 --> 00:03:12.810
+We can define replace True to
+perform sampling with replacement.
+
+41
+00:03:14.370 --> 00:03:17.280
+Here are the results of two samples.
+
+42
+00:03:17.280 --> 00:03:21.500
+You can see that for
+sampling without replacement,
+
+43
+00:03:21.500 --> 00:03:27.731
+which is on the left-hand side,
+there are no duplicates individuals found.
+
+44
+00:03:28.790 --> 00:03:34.271
+As we can see, there are no
+duplicate index numbers either.
+
+45
+00:03:34.271 --> 00:03:40.178
+However, on the right-hand side,
+which is the sampling with replacement,
+
+46
+00:03:40.178 --> 00:03:45.469
+it is possible to see the same
+individual is drawn for multiple times.
+
+47
+00:03:47.520 --> 00:03:52.760
+Besides population sample, there is
+another pair of concepts, parameter and
+
+48
+00:03:52.760 --> 00:03:58.720
+statistics, of which are very important
+in categorizing population and sample.
+
+49
+00:04:00.130 --> 00:04:04.360
+Parameter is a characteristic or
+summary number of populations.
+
+50
+00:04:04.360 --> 00:04:07.158
+Statistic is a characteristic or
+summary number of sample.
+
+51
+00:04:07.158 --> 00:04:10.550
+For example, mean,
+
+52
+00:04:10.550 --> 00:04:15.060
+variance, standard deviation of population
+are characteristics of population.
+
+53
+00:04:16.090 --> 00:04:20.540
+Once target populations are fixed,
+these summary numbers will not change.
+
+54
+00:04:21.880 --> 00:04:26.360
+Sample also has mean, variance,
+and standard deviation,
+
+55
+00:04:26.360 --> 00:04:30.590
+but their values changes
+in different samples,
+
+56
+00:04:30.590 --> 00:04:34.040
+even if they are drawn
+from the same population.
+
+57
+00:04:35.240 --> 00:04:40.140
+Let's print out the parameters of
+population which we have just created.
+
+58
+00:04:41.170 --> 00:04:46.181
+We can calculate the mean,
+variance, and the standard
+
+59
+00:04:46.181 --> 00:04:51.948
+deviation using dataframe methods,
+.mean, .var, .std.
+
+60
+00:04:51.948 --> 00:04:55.540
+The mathematic formulas for
+mean and variance are given.
+
+61
+00:04:56.610 --> 00:05:03.434
+In calculating var and std,
+we set the keyword ddof as 0.
+
+62
+00:05:03.434 --> 00:05:08.020
+Which means the denominator of
+the population variance is N,
+
+63
+00:05:08.020 --> 00:05:10.942
+which is the number of the population.
+
+64
+00:05:10.942 --> 00:05:14.679
+The .shape,
+as described in the previous module,
+
+65
+00:05:14.679 --> 00:05:18.890
+offers a size of the data
+frame in rows and columns.
+
+66
+00:05:18.890 --> 00:05:23.550
+We use .shape(0) to display
+only the number of rows.
+
+67
+00:05:24.640 --> 00:05:31.020
+Also, these methods can be applied
+to compute statistics of samples.
+
+68
+00:05:31.020 --> 00:05:39.190
+First, let us get a sample with size
+10 from population, using replacement.
+
+69
+00:05:39.190 --> 00:05:44.750
+The sample and sample variance
+standard deviation are printed out.
+
+70
+00:05:44.750 --> 00:05:48.560
+Notice that when we compute
+a sample variance and
+
+71
+00:05:48.560 --> 00:05:52.580
+std, we need the ddof equal to 1.
+
+72
+00:05:52.580 --> 00:05:57.470
+It means the denominator
+of a sample variance has to
+
+73
+00:05:57.470 --> 00:06:02.370
+be n-1 instead of n,
+which is the sample size.
+
+74
+00:06:03.940 --> 00:06:09.790
+To understand why the denominator
+of the sample variance is n-1, let
+
+75
+00:06:09.790 --> 00:06:15.230
+us generate 500 samples,
+each sample with size equal to 50.
+
+76
+00:06:15.230 --> 00:06:18.729
+We calculate sample variance for
+
+77
+00:06:18.729 --> 00:06:23.562
+each sample using n and
+n-1 as denominators.
+
+78
+00:06:23.562 --> 00:06:30.145
+You'll find that the real
+population variance is 571.8.
+
+79
+00:06:30.145 --> 00:06:34.949
+As you can see,
+the average of sample variances using
+
+80
+00:06:34.949 --> 00:06:39.770
+n-1 is closer to population
+variance than using n.
+
+81
+00:06:40.770 --> 00:06:45.806
+The average of sample variance
+using n as denominator is always
+
+82
+00:06:45.806 --> 00:06:51.801
+smaller than population variance,
+which is some mathematical reasons.
+
+83
+00:06:51.801 --> 00:06:55.951
+n-1, in fact,
+is called degrees of freedom.
+
+84
+00:06:55.951 --> 00:07:01.162
+For sample variance,
+there is another explanation why sample
+
+85
+00:07:01.162 --> 00:07:06.481
+variance is divided by n-1,
+which is the degrees of freedom.
+
+86
+00:07:06.481 --> 00:07:10.392
+Degrees of freedom is
+a number of values used in
+
+87
+00:07:10.392 --> 00:07:13.713
+calculation that are free to variate.
+
+88
+00:07:13.713 --> 00:07:17.149
+When we use the sample mean to
+compute the sample variance,
+
+89
+00:07:17.149 --> 00:07:19.220
+we will lose one degree of freedom.
+
+90
+00:07:20.250 --> 00:07:23.160
+For example, sample size equal to 3,
+
+91
+00:07:23.160 --> 00:07:28.470
+sample mean equal to 100 is used
+in computing sample variance.
+
+92
+00:07:28.470 --> 00:07:32.700
+We can choose two individuals
+independently, for example,
+
+93
+00:07:32.700 --> 00:07:35.970
+90 and 80 in the table, but
+
+94
+00:07:35.970 --> 00:07:41.480
+the third is not free to variate
+because of constraint of sample mean.
+
+95
+00:07:42.860 --> 00:07:47.487
+The only choice for a third number is 130.
+
+96
+00:07:47.487 --> 00:07:49.531
+When we compute the variance,
+
+97
+00:07:49.531 --> 00:07:54.180
+using degrees of freedom is
+better than using sample size.
+
+98
+00:07:54.180 --> 00:08:00.570
+In the sense that the average of estimator
+will be equal to population variance,
+
+99
+00:08:00.570 --> 00:08:04.920
+which is called an unbiased estimator.
+
+100
+00:08:04.920 --> 00:08:10.130
+In the next video, we will talk about
+distribution of sample statistics.
